@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*<body>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+ /*header>>>>>*/
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #EC715F;
+}
+}
+
+.left-part{
+	height: 60px;
+	width: 3px;
+	padding: 10px;
+}
+.title0{
+	font-family:'Cambria Math',sans-serif;,'Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+	color: red;
+	float: left;
+	width: 330px;
+	padding: 20px 50px 20px 20px;
+}
+
+
+.nav-menu-item{
+	height: 80px;
+	width: 160px;
+	margin: 10px 0px 10px 35px;
+	float: left;
+	/*line-height: 70px;*/
+	text-align: left;
+	list-style: none;
+	color: white;
+	padding: 10px;
+	font-size: 12px;
+}
+
+/*.logo{*/
+	height: 70px;
+	float: left;
+	width: 150px;
+	float: left;
+}
+
+.clearfix::after{
+	clear:both;
+	display: block;
+	content:"";
+}
+
+/*section>>>>>>>>>*/
+
+.title{
+	width: auto;
+	margin: 0 auto;
+	color: white;
+	background-size: contain;
+	text-align: center;
+}
+
+
+#mv{
+	width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+    text-align: center;
+    color: #FAFAFA;
+    background-image: url(pic1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mv-title{
+	padding-top: 200px;
+	font-family: 'Raleway',sans-serif;
+	font-size: 3rem;
+}
+
+.mv-text{
+	padding-top: 0 auto;
+	font-size: 2rem;
+}
+
+/*<portfolio>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.portfolio{
+	background-color: #ECEFF1;
+	padding-bottom: 100px;
+}
+
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 16000px;
+	height: 3px;
+	margin: 8px auto 0 8px;
+	background-color: yellow;
+}
+
+.heading-text{
+	text-align: center;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+
+.img-box{
+	height: 250px;
+	width: 300px;
+	margin: 5px;
+	background-color: skyblue;
+	float: left;
+	background-position: center;
+	-webkit-background-position: center;
+	background-size: cover;
+}
+
+.img1{width: 600px;
+	background-image: url(AdobeStock_98981916_Preview.jpeg);
+}
+.img2{
+	background-image: url(AdobeStock_162239690_Preview.jpeg);
+}
+/*.img3{
+	background-image: url(img/write.jpg);
+}*/
+.img4{
+	background-image: url(AdobeStock_82134445_Preview.jpeg);
+}
+.img5{
+	width: 600px;
+	background-image: url(AdobeStock_102600876_Preview.jpeg);
+}
+/*.img6{
+	background-image: url(img/webcamp-mother.png);
+}
+*/
+
+
+/*<<<<<<<<<<<<Part1.>>>>>>>>>>>>>>>*/
+
+.Feature{
+	font-family:'Cambria Math',sans-serif;,'Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+
+.heading{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+.heading-text2{
+	padding-top: 7px;
+	text-align: center;
+	font-size: 15px;
+}
+.heading-text3{
+	padding: 60px 10px 10px 10px;
+	text-align: center;
+	font-size: 15px;
+}
+.small-box{
+	height: 23px;
+	width: 140px;
+	background-color: red;
+	margin: 5px auto;
+}
+.small-title{
+	font-weight: bold;
+	color: white;
+}
+.size{
+	font-size: 20px;
+	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+	font-weight: bold;
+	padding: 10px;
+}
+
+/*<<<<<<<3topics>>>>>*/
+/*container2>>>>>>>*/
+.container2{
+	width: 1200px;
+	height: 800px;
+	margin: 20px auto;
+	padding : 50px 100px;
+	background-image: url(AdobeStock_65482539_Preview.jpeg);
+}
+
+.box1-feature{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: yellow;
+	float: left;
+}
+.box1-every{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: yellow;
+	float: left;
+}
+.box1-every1{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: yellow;
+	float: left;
+}
+.box1-every2{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: yellow;
+	float: left;
+}
+.box1-every3{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: yellow;
+	float: left;
+}
+.box1-every4{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: yellow;
+	float: left;
+}
+
+/*container3>>>>>>>>>>>*/
+.container3{
+	width: 1200px;
+	height: 800px;
+	margin: 20px auto;
+	padding: 50px 100px;
+	background-image: url(AdobeStock_101050715_Preview.jpeg);
+}
+.feature-box2{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: skyblue;
+	float: left;
+}
+.blank2{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: skyblue;
+	float: left;
+}
+.blank3{
+	width: 310px;
+	height: 300px;
+	margin: 5px;
+	text-align: center;
+	background-color: skyblue;
+	float: left;
+}
+.blank4{
+	width: 310px;
+	height: 300px;
+	margin: 5px;
+	text-align: center;
+	background-color: skyblue;
+	float: left;
+}
+.blank5{
+	width: 310px;
+	height: 300px;
+	margin: 5px;
+	text-align: center;
+	background-color: skyblue;
+	float: left;
+}
+.blank6{
+	width: 310px;
+	height: 300px;
+	margin: 5px;
+	text-align: center;
+	background-color: skyblue;
+	float: left;
+}
+
+
+
+/*container4>>>>>>>>>>>>>>>*/
+.container4{
+	width: 1200px;
+	height: 800px;
+	margin: 20px auto 60px;
+	padding : 50px 100px;
+	background-image: url(AdobeStock_85982599_Preview.jpeg);
+}
+.feature-box3{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: #FF82B2;
+	float: left
+}
+.last1{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: #FF82B2;
+	float: left
+}
+.last2{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: #FF82B2;
+	float: left
+}
+.last3{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: #FF82B2;
+	float: left
+}
+.last4{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: #FF82B2;
+	float: left
+}
+.last5{
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	margin: 5px;
+	background-color: #FF82B2;
+	float: left
+}
+
+
+
+.up1{
+	font-size: 40px;
+	text-align: left;
+	padding: 20px;
+	font-weight: bold;
+}
+.mini{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.text{
+	font-size: 13px;
+	text-align: left;
+	padding: 1px  20px 20px 20px;
+}
+.textX{
+	font-size: 11px;
+	text-align: left;
+	padding: 1px  20px 20px 20px;
+}
+.textXX{
+	font-size: 11px;
+	text-align: left;
+	padding: 1px  20px 20px 20px;
+}
+
+
+/*<<<<<<<Part2>>>>>>>>>>>>*/
+.Feature2{
+	font-family:'Cambria Math',sans-serif;,'Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+
+}
+.headingx::after{
+	content: "";
+	display: block;
+	width: 1400px;
+	height: 3px;
+	margin: 8px auto 0 8px;
+	background-color: yellow;
+}
+.heading-text2x{
+	padding: 7px 10px 50px 10px;
+	text-align: center;
+	font-size: 15px;
+}
+.headingxx{
+	width: auto;
+	height: 50px;
+	padding-bottom: 100px;
+}
+.red{
+	width: 250px;
+	height: 26px;
+	background-color: red;
+	margin: 0 auto;
+}
+.inred{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.heading-text3x{
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 50px;
+}
+.shock{
+	font-size: 15px;
+	color: green;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.second{
+	width: 900px;
+	height: 1230px;
+	margin: 30px auto 5px;
+}
+.image-box{
+	height: 700px;
+	margin: 0 auto;
+	background-color: skyblue;
+	float: left;
+	background-position: center;
+	-webkit-background-position: center;
+	background-size: cover;
+}
+
+.img11{
+	width: 900px;
+	height: 600px;
+	background-image: url(AdobeStock_8299320_Preview.jpeg);
+	margin: 0 auto;
+}
+
+.culture{
+	font-size: 40px;
+	color: black;
+	float: left;
+	padding: 70px 30px 3px;
+}
+span{
+	color: #000055;
+	font-size: 80px;
+}
+.culture-text{
+	font-weight: bold;
+	color: black;
+	font-size: 25px;
+	float: left;
+	margin: 0px 50px 0px 70px;
+}
+.img12{
+	width: 900px;
+	height: 600px;
+	background-image: url(AdobeStock_9980087_Preview.jpeg);
+}
+.mm{
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+}
+.dd{
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding: 10px;
+}
+.culture-text2{
+	font-size: 14px;
+	padding: 10px;
+	float: left;
+	text-align: left;
+}
+.culture-text2x{
+	font-size: 13px;
+	padding: 5px;
+	float: left;
+	text-align: left;
+}
+
+
+
+
+
+
+
+/*<<<<<<<<<<<<,amigo>>>>>>>>>>>>>*/
+
+/*.one{
+	width: 200px;
+	height: 200px;
+	padding: 200px 20px 20px 150px;
+	float: left;
+}*/
+.two{
+	width: 600px;
+	height: 700px;
+	margin: 60px 0px 0px 30px;
+	float: left;
+	padding: 20px 0px;
+}
+.story{
+	font-size: 23px;
+	color: green;
+	text-align: center;
+	font-weight: bolder;
+	text-align: left;
+	padding: 30px;
+}
+.font{
+	color: #006633;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.small{
+	font-size: 16px
+}
+.secret{
+	width: 500px;
+	height: 220px;
+	float: right;
+	padding: 10px;
+}
+.secretx{
+	font-size: 15px;
+	text-align: left;
+}
+
+
+
+
+.boxamigo{
+	width: 1200px;
+	height: 760px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+
+
+/*.amigo{
+	width: 200px;
+	height: 200px;
+	float: right;
+
+}*/
+#warped{
+	margin: 60px auto;
+	float: right;
+}
+.amigoimg{
+	width: 500px;
+	height: 600px;
+	background-image: url(AdobeStock_6374341_Preview.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 600px;
+	margin-top: 60px;
+}
+
+
+
+
+/*-----タブレット-------->*/
+
+@media all and (max-width: 960px) {
+/*<<<<<header>>>>>>>*/
+.contain{
+	width: 100%;
+}
+
+
+
+
+
+/*-------------スマホ---------*/
+@media all and (max-width: 960px) {

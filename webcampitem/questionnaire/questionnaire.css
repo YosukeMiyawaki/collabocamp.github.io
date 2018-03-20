@@ -1,0 +1,21 @@
+/*setting*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	background-image: url(../img/IMG_8097.JPG);
+	background-size: cover;
+}
+form{
+	padding-top: 200px;
+	padding-left: 300px;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.clearfix::after{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.card {
+	width: 0 auto;
+    margin: 200 auto;
+    font-color: #FFFF00;
+    box-shadow: 1px 1px 2px 0 rgba(117,117,117,.25);
+}
+
+
+.card-heading {
+	margin: 0;
+    padding: 10px 25px;
+    border-bottom: 1px solid #757575;
+    color: #FFFF00;
+    background: #3300ff;
+}
+
+.card-text {
+	margin: 0;
+    padding: 25px;
+    line-height: 2;
+    color: #757575;
+    background: #e0f7fa;
+}
+    .nav-menu-item{
+  height: 70px;
+  width: 16.65%;
+  float: left;
+  line-height: 70px;
+  text-align: center;
+   list-style: none;
+  color: #FFFF00;
+  background-color:  #0099cc;
+}
+
+
+
+
+.box1{
+	height: 200px;
+	width: 20%;
+	border: 3px solid #F6FBF6;
+	text-align: center;
+	line-height: 200px;
+	margin: 20px 30px;
+	float: left;
+}
+
+ .box2{
+	height: 440px;
+	width: 700px;
+	border: 3px solid #F6FBF6;
+	text-align: center;
+	line-height: 200px;
+	margin: 20px 10px;
+	float: left;
+}
+
+.box3{
+	height: 200px;
+	width: 280px;
+	border: 3px solid #F6FBF6;
+	text-align: center;
+	line-height: 200px;
+	margin: 20px 10px;
+	float: right;
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.rectangle{
+  height: 60px;
+  background-color: #ff9e9e;
+}
+
+
+.portfolio{
+	background-color: #ECEFF1;
+}
+
+.heading{
+	padding-top: 100px;
+	text-align: right;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.heading-text{
+	padding-top: 30px;
+	text-align: center;
+}
+.heading{
+	padding-top: 90px;
+	text-align: center;
+}
+
+.heading::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.heading-text{
+	padding-top: 30px;
+	text-align: center;
+}

@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*header*/
+header{
+	background-color: #ffb6c1;
+}
+.menu{
+	width: 1024px;
+	margin: 0 auto;
+}
+.webtitle{
+	float: left;
+	height: 40px;
+}
+nav{
+	float: right;
+}
+li{
+	float: left;
+	list-style: none;
+	padding: 0 30px;
+}
+/*mainvisual*/
+.main{
+	height: 650px;
+	width: 100%;
+	padding-top: 70px;
+	background-image: url(../img/australia119.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+h1{
+	font-size: 60px;
+	padding-top: 200px;
+	color: #fff0f5;
+}
+
+/*profile*/
+#profile{
+	padding: 100px;
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/IMG_7414.JPG);
+	background-size: cover;
+	background-position: center;
+}
+.profile{
+	background-size: auto;
+	background-color: rgba(248, 248, 255, 0.5);
+}
+/*explanation*/
+#examination{
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/IMG_7521.JPG);
+	background-size: cover;
+	background-position: center;
+	padding: 100px 100px;
+}
+.examination{
+	background-color: rgba(248, 248, 255, 0.5);
+}
+.questionaire{
+	font-size: 30px;
+}
+/*contact*/
+#contact{
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/australia338.jpg);
+	background-size: cover;
+	background-position: top;
+}
+.contact{
+	padding-top: 300px;
+}
+.title{
+	text-align: center;
+}
+form {
+    /* フォームをページの中央に置く */
+    margin: 0 auto;
+    width: 500px;
+    /* フォームの範囲がわかるようにする */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #000;
+}
+textarea {
+    /* 複数行のテキストフィールドをラベルにきちんと揃える */
+    vertical-align: top;
+
+    /* テキスト入力に十分な領域を与える */
+    height: 5em;
+
+    /* ユーザが textarea を垂直方向にリサイズできるようにする
+       これが動作しないブラウザもある */
+    resize: vertical;
+}
+.button {
+    /* ボタンを他のテキストフィールドと同じ場所に置く */
+    padding-left: 90px; /* label 要素と同じサイズ */
+}
+button {
+    /* このマージンは、ラベルとテキストフィールドの間のスペースと
+       おおよそ同じスペースを表す */
+    margin-left: .5em;
+}
+
+@media all and (max-width: 1024px){
+.main{
+	width:100%;
+}
+.menu{
+	width: 100%;
+}
+h1{
+	font-size: 30px;
+}
+img{
+	height: 20px;
+	padding: 0 10px;
+}
+li{
+	padding: 0 5px;
+}
+p{
+	font-size: 10px;
+}
+h2{
+	font-size: 15px;
+}
+h4{
+	font-size: 12px;
+}
+#profile{
+	padding: 10px;
+}
+#examination{
+	padding: 10px 10px;
+}
+.questionaire{
+	font-size: 20px;
+}
+form{
+	width: 310px;
+}
+input, textarea{
+	width: 280px;
+}
+.contact{
+	padding-top: 200px;
+}
+.button{
+	padding-left: 70px;
+}
+}
